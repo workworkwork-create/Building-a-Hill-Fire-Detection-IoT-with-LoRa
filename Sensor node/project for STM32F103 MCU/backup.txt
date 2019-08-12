@@ -1,0 +1,36 @@
+/* USER CODE BEGIN AT Cmd List */
+uint8_t AtCmd_AT[4] = "AT\r\n";
+
+/* USER CODE END AT Cmd List */
+uint8_t AT_send(uint8_t *cmd)
+{
+	uint8_t i = 0;
+	while(cmd[i]!=NULL)
+	{
+		while(!LL_USART_IsActiveFlag_TXE(USART3));
+		LL_USART_TransmitData8(USART3,cmd[i]);
+		i++;
+	}
+}
+/* Private user code ---------------------------------------------------------*/
+/* USER CODE BEGIN 0 */
+int fputc (int ch, FILE *stream)
+{
+	while(!LL_USART_IsActiveFlag_TXE(USART1));
+	LL_USART_TransmitData8(USART1,ch);
+	return ch ; 
+}
+void delay(uint32_t ms)
+{
+	uint32_t i,y;
+	for(i=0; i<ms; i++)
+	{
+		for(y = 0; y<7200; y++)
+		{
+			__NOP();
+		}
+	}
+}
+GPIOB->ODR ^= LL_GPIO_PIN_1 | LL_GPIO_PIN_0| LL_GPIO_PIN_2;
+		AT_send(AtCmd_AT);
+		delay(1000);

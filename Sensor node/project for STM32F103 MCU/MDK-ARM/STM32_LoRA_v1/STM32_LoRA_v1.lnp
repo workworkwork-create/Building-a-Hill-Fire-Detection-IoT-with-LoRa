@@ -1,0 +1,19 @@
+--cpu Cortex-M3
+"stm32_lora_v1\startup_stm32f103xb.o"
+"stm32_lora_v1\main.o"
+"stm32_lora_v1\stm32f1xx_it.o"
+"stm32_lora_v1\ds18b20.o"
+"stm32_lora_v1\stm32f1xx_ll_gpio.o"
+"stm32_lora_v1\stm32f1xx_ll_adc.o"
+"stm32_lora_v1\stm32f1xx_ll_dma.o"
+"stm32_lora_v1\stm32f1xx_ll_pwr.o"
+"stm32_lora_v1\stm32f1xx_ll_exti.o"
+"stm32_lora_v1\stm32f1xx_ll_tim.o"
+"stm32_lora_v1\stm32f1xx_ll_usart.o"
+"stm32_lora_v1\stm32f1xx_ll_rcc.o"
+"stm32_lora_v1\stm32f1xx_ll_utils.o"
+"stm32_lora_v1\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "STM32_LoRA_v1\STM32_LoRA_v1.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "STM32_LoRA_v1.map" -o STM32_LoRA_v1\STM32_LoRA_v1.axf
