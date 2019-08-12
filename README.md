@@ -1,7 +1,7 @@
 # Building-a-Hill-Fire-Detection-IoT-with-LoRa
 Attachment of Design Files
 
-The attachments below are the design files used in this project.
+The attachments below are the project code used in this project.
 
 
 Sensor node – Folder contains 
