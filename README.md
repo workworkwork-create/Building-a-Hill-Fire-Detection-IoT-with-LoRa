@@ -2,8 +2,9 @@
 
 ## A project shared in RS DesignSpark, which is a community for engineers created by RS Components!
 ### Please take a look if you are interested!
+URL link to DesignSpark: https://www.rs-online.com/designspark/home
 
-### Articles posted on https://www.rs-online.com/designspark/content-preview/article/14582?lang=en and https://www.rs-online.com/designspark/content-preview/article/14584?lang=en
+Articles posted on https://www.rs-online.com/designspark/content-preview/article/14582?lang=en and https://www.rs-online.com/designspark/content-preview/article/14584?lang=en
 
 ############################################################
 
