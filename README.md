@@ -1,9 +1,6 @@
 # Building-a-Hill-Fire-Detection-IoT-with-LoRa
 Attachment of Design Files
 
-The attachments below are the project code used in this project.
-
-
 Sensor node – Folder contains 
 (1) a modified version of I-CUBE-LRWAN for USI I-NUCLEO-LRWAN1 LoRa shield and 
 (2) project code for on-board STM32F103 MCU
