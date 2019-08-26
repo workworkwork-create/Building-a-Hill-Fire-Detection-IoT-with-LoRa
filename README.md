@@ -3,6 +3,11 @@
 ## A project shared in RS DesignSpark, which is a community for engineers created by RS Components!
 ### Innovations, ideas, projects and information are all in DseignSpark. 
 
+### Take a look if you are interested!
+URL link to DesignSpark: https://www.rs-online.com/designspark/home
+
+Articles posted on https://www.rs-online.com/designspark/building-a-hill-fire-detection-iot-with-lora-part-1-introduction and https://www.rs-online.com/designspark/building-a-hill-fire-detection-iot-with-lora-part-2-details-of-the-system
+
 
 ############################################################
 
